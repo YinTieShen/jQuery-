@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html,body,.wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: #cecece;
+    overflow: hidden;
+}
+.wrapUl{
+    width: 80%;
+    height: 80%;
+    position: relative;
+    margin:50px auto;
+}
+.wrapUl li{
+    position: absolute;
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    transform: scale(0.9);
+}
+img{
+    width: 100%;
+    height: 100%;
+}
